@@ -41,6 +41,39 @@
       <input type="text" name="q" />
       <button type="submit">Find on Google</button>
     </form>
+    <form action="/bands">
+      <h2>Quais bandas você escuta?</h2>
+      <input type="checkbox" name="band1" id="band1" checked />
+      <label for="band1">Iron Maiden</label>
+      <br />
+      <input type="checkbox" name="band2" id="band2" />
+      <label for="band2">Metallica</label>
+      <br />
+      <input type="checkbox" name="band3" id="band3" />
+      <label for="band3">AC/DC</label>
+      <br />
+      <button>Submit</button>
+    </form>
+    <form action="/termos">
+      <h2>Você aceita os termos?</h2>
+      <p>
+        <input type="radio" name="decision" id="agree" value="agree" />
+        <label for="agree">I agree</label>
+        <input type="radio" name="decision" id="disagree" value="disagree" />
+        <label for="disagree">I disagree</label>
+        <input type="radio" name="decision" id="half" value="half" />
+        <label for="half">I'm on the wall</label>
+      </p>
+      <p>
+        <label for="system">Please select your favorite OS</label>
+        <select name="system" id="system">
+          <option value="linux">Linux</option>
+          <option value="windows">Windows</option>
+          <option value="Mac">MacOS</option>
+        </select>
+      </p>
+      <button>Submit</button>
+    </form>
   </body>
 </html>
 
