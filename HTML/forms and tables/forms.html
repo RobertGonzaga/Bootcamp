@@ -25,7 +25,7 @@
       </p>
       <p>
         <label for="number">Enter a number:</label>
-        <input type="number" placeholder="enter a number" id="number" name="num" />
+        <input type="number" placeholder="enter a number" id="number" name="num" min="0" max="100" />
       </p>
       <button>Submit</button>
       <input type="submit" value="odd button" />
@@ -71,6 +71,15 @@
           <option value="windows">Windows</option>
           <option value="Mac">MacOS</option>
         </select>
+      </p>
+      <p>
+        <label for="audio">Audio Level</label>
+        <input type="range" id="audio" name="audio_level" min="0" max="10" step="2" />
+      </p>
+      <p>
+        <label for="text">Leave a message!</label>
+        <br>
+        <textarea name="text_answers" id="text" rows="10" cols="100" placeholder="Deixe seu comentário"></textarea>
       </p>
       <button>Submit</button>
     </form>
