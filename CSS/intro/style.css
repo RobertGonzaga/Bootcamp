@@ -12,5 +12,9 @@ button {
 
 p {
   color: midnightblue;
-  background: lightskyblue;
+  background: #769bb0;
+}
+
+body {
+  background-color: #8a8a8a;
 }
