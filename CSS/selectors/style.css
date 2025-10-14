@@ -13,10 +13,19 @@ button {
 
 h1,
 h2 {
-  color: #f08080;
+  color: #10002b;
 }
 
 #signup {
   color: #fff0f3;
   background-color: #3c096c;
+}
+
+span {
+  color: #800f2f;
+}
+
+.tags {
+  background-color: #ffd500;
+  font-size: 15px;
 }
