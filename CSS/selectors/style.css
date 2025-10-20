@@ -31,11 +31,11 @@ span {
 }
 
 .posts a {
-  color: #800f2f
+  color: #800f2f;
 }
 
 footer a {
-  color: #ffd500
+  color: #ffd500;
 }
 
 h2 + button {
@@ -45,4 +45,8 @@ h2 + button {
 
 footer > a {
   color: darkgreen;
+}
+
+input[type="password"] {
+  color: darkred;
 }
