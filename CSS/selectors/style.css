@@ -50,3 +50,26 @@ footer > a {
 input[type="password"] {
   color: darkred;
 }
+
+.posts button:hover {
+  background-color: red;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover {
+  color: orangered;
+  text-decoration: underline;
+}
+
+.posts button:active {
+  background-color: indigo;
+}
+
+.posts:nth-of-type(3n) {
+  background-color: #b5c0b9;
+}
