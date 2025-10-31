@@ -86,3 +86,8 @@ p::first-line {
 p::selection {
   color: yellowgreen
 }
+
+button:hover {
+  background-color: salmon;
+  font-size: 10px;
+}
