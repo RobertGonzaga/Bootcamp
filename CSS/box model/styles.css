@@ -1,10 +1,27 @@
 div {
   width: 200px;
   height: 200px;
-  background-color: lightcoral;
 }
 
 h1 {
   width: 200px;
   background-color: aquamarine;
+}
+
+#div1 {
+  background-color: #b3dee2;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 5%;
+}
+#div2 {
+  background-color: #eaf2d7;
+  border: 3px dotted blue;
+  border-left-style: solid;
+}
+#div3 {
+  background-color: #efcfe3;
+  border: 3px dashed red;
+  border-radius: 50%;
 }
