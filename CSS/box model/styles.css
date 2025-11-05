@@ -6,6 +6,8 @@ div {
 h1 {
   width: 200px;
   background-color: aquamarine;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #div1 {
@@ -14,6 +16,7 @@ h1 {
   border-width: 3px;
   border-color: black;
   border-radius: 5%;
+  padding: 10px;
 }
 #div2 {
   background-color: #eaf2d7;
@@ -24,4 +27,7 @@ h1 {
   background-color: #efcfe3;
   border: 3px dashed red;
   border-radius: 50%;
+}
+button {
+  padding: 10px 20px;
 }
