@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 div {
   width: 200px;
   height: 200px;
@@ -8,6 +12,8 @@ h1 {
   background-color: aquamarine;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-left: 20px;
+  margin-bottom: 0px;
 }
 
 #div1 {
@@ -17,17 +23,21 @@ h1 {
   border-color: black;
   border-radius: 5%;
   padding: 10px;
+  margin-left: 40px;
 }
 #div2 {
   background-color: #eaf2d7;
   border: 3px dotted blue;
   border-left-style: solid;
+  margin-left: 60px;
 }
 #div3 {
   background-color: #efcfe3;
   border: 3px dashed red;
   border-radius: 50%;
+  margin-left: 80px;
 }
 button {
   padding: 10px 20px;
+  margin: 5px 10px;
 }
