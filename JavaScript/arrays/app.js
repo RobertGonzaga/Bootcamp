@@ -33,3 +33,9 @@ console.log(warmColors);
 
 let coolColors = colors.slice(4);
 console.log(coolColors);
+
+colors.splice(3, 1, "magenta");
+console.log(colors);
+
+colors.splice(1);
+console.log(colors);
