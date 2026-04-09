@@ -19,3 +19,10 @@ function repeat(str, times) {
   console.log(result);
 }
 repeat("Hello World! ", 5);
+
+function add(a, b) {
+  if (typeof a !== "number" || typeof b !== "number") {
+    return false;
+  }
+  return a + b;
+}
