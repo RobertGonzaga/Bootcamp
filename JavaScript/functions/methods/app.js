@@ -7,3 +7,16 @@ const myMath = {
     return celsius * 1.8 + 32;
   },
 };
+
+//KEYWORD THIS
+
+const pokemon = {
+  name: "pikachu",
+  color: "yellow",
+  type: "eletric",
+  specialMove() {
+    console.log(`${this.name} is using a ${this.type} attack!`);
+  },
+};
+
+const attack = pokemon.specialMove;
