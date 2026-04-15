@@ -1,11 +1,17 @@
-function sayHello() {
-  console.log("Hello World!");
-}
+// function sayHello() {
+//   console.log("Hello World!");
+// }
 
-function repeatTenTimes(func) {
-  for (let i = 0; i < 10; i++) {
-    func();
-  }
-}
+// function repeatTenTimes(func) {
+//   for (let i = 0; i < 10; i++) {
+//     func();
+//   }
+// }
 
-repeatTenTimes(sayHello);
+// repeatTenTimes(sayHello);
+
+function makeMultiplier(multNum) {
+  return function (num) {
+    return num * multNum;
+  };
+}
