@@ -6,8 +6,6 @@ const beyblades = [
   { name: "Pegasus", type: "Attack" },
 ];
 
-const beyNames = beyblades.map(function (bey) {
-  return bey.name.toUpperCase();
-});
+const beyNames = beyblades.map((bey) => bey.name.toUpperCase());
 
 console.log(beyNames);
