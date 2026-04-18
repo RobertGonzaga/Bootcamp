@@ -43,3 +43,8 @@ console.log(...pokemons);
 
 // SPREAD WITH ARRAY LITERALS
 
+const nbaTeams = ["OKC", "BULLS", "WARRIORS", "LAKERS"];
+const soccerTeams = ["Barcelona", "Real Madrid", "Cruzeiro", "Santos"];
+
+const allTeams = [...nbaTeams, ...soccerTeams];
+console.log(allTeams);
