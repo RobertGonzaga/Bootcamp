@@ -81,3 +81,29 @@ function winners(firstPlace, secondPlace, thirdPlace, ...everyoneElse) {
   console.log(`${thirdPlace} bronze medal`);
   console.log(`${everyoneElse} didnt make it`);
 }
+
+// DESTRUCTURING ARRAYS
+
+const fruits = ["banana", "apple", "orange", "avocado"];
+const [fruit1, fruit2, ...otherFruits] = fruits;
+console.log(fruit1, fruit2, otherFruits);
+
+// DESTRUCTURING OBJECTS
+
+const player1 = {
+  fullName: "Lionel Messi",
+  currentClub: "Inter Miami",
+  ballonDorTitles: 8,
+  worldCupTrophies: 1,
+  playStyle: "Playmaker",
+};
+
+const player2 = {
+  fullName: "Cristiano Ronaldo",
+  currentClub: "AL-Nassr",
+  ballonDorTitles: 5,
+  playStyle: "Playmaker",
+};
+
+// const { fullName, currentClub, ballonDorTitles: bestPlayerTrophies } = player1;
+const { fullName, currentClub, worldCupTrophies = 0 } = player2;
