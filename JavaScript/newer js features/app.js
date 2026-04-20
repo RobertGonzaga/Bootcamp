@@ -66,3 +66,18 @@ const quicksilver = {
 
 const speedHeroes = { ...quicksilver, ...flash };
 console.log(speedHeroes);
+
+// REST PARAMETERS
+
+function sum(...nums) {
+  return nums.reduce((total, i) => {
+    return total + i;
+  });
+}
+
+function winners(firstPlace, secondPlace, thirdPlace, ...everyoneElse) {
+  console.log(`${firstPlace} gold medal`);
+  console.log(`${secondPlace} silver medal`);
+  console.log(`${thirdPlace} bronze medal`);
+  console.log(`${everyoneElse} didnt make it`);
+}
