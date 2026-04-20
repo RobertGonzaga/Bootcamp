@@ -48,3 +48,21 @@ const soccerTeams = ["Barcelona", "Real Madrid", "Cruzeiro", "Santos"];
 
 const allTeams = [...nbaTeams, ...soccerTeams];
 console.log(allTeams);
+
+// SPREAD WITH OBJECTS
+
+const flash = {
+  power: "acceleration force",
+  company: "DC",
+  haveSoloMovie: true,
+};
+
+const quicksilver = {
+  power: "speed",
+  company: "Marvel",
+  haveSoloMovie: false,
+  favoriteBand: "Pink Floyd",
+};
+
+const speedHeroes = { ...quicksilver, ...flash };
+console.log(speedHeroes);
