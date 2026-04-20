@@ -107,3 +107,38 @@ const player2 = {
 
 // const { fullName, currentClub, ballonDorTitles: bestPlayerTrophies } = player1;
 const { fullName, currentClub, worldCupTrophies = 0 } = player2;
+
+// DESTRUCTURING PARAMS
+
+const cars = [
+  {
+    make: "Toyota",
+    model: "Corolla",
+    year: 2022,
+    color: "Silver",
+    isElectric: false,
+  },
+  {
+    make: "Tesla",
+    model: "Model 3",
+    year: 2023,
+    color: "White",
+    isElectric: true,
+  },
+  {
+    make: "Ford",
+    model: "Mustang",
+    year: 2021,
+    color: "Red",
+    isElectric: false,
+  },
+  {
+    make: "BMW",
+    model: "i4",
+    year: 2024,
+    color: "Black",
+    isElectric: true,
+  },
+];
+
+console.log(cars.filter(({ isElectric }) => isElectric === true));
