@@ -37,3 +37,9 @@ const paragraphs = document.querySelectorAll("p");
 paragraphs.forEach((p) => {
   p.textContent = "this p was altered by textContent";
 });
+
+// ATTRIBUTES
+
+const input = document.querySelector("input");
+input.setAttribute("type", "password");
+input.type = "color";
