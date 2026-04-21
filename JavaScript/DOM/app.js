@@ -23,3 +23,17 @@ console.log(content);
 
 const bolds = document.querySelectorAll("p > b");
 console.log(bolds);
+
+// MANIPULATING
+
+const bannerTitle = document.querySelector("h1");
+bannerTitle.innerText = "Anime: Naruto Shippuden aaaaaa";
+
+const subTitle = document.querySelector("#content > h2");
+subTitle.innerHTML = "<h2><i> other popular anime </i></h2>";
+subTitle.innerHTML += "<p> altered </p>";
+
+const paragraphs = document.querySelectorAll("p");
+paragraphs.forEach((p) => {
+  p.textContent = "this p was altered by textContent";
+});
